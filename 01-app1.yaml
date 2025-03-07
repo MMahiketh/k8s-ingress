@@ -1,10 +1,10 @@
 kind: Deployment
-apiVersion: app/v1
+apiVersion: apps/v1
 metadata:
   name: app-1
 spec:
   replicas: 1
-  selectors:
+  selector:
     matchLabels:
       app: app-1
   template:
