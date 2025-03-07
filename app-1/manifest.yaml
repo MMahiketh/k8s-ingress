@@ -14,7 +14,4 @@ spec:
     spec:
       containers:
       - name: app-1
-        image: mahiketh/s-app:v1
-        env:
-        - name: APP
-          value: app-1
+        image: mahiketh/app-1:v1
