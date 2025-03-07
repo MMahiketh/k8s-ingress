@@ -46,7 +46,7 @@ spec:
   - host: "app1.daws81s.online"
     http:
       paths:
-      - pathType: prefix
+      - pathType: Prefix
         path: "/"
         backend:
           service:
