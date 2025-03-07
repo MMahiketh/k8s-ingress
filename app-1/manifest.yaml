@@ -38,12 +38,12 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:339712874850:certificate/d2c68ee8-1a15-46de-94f2-6a39f454dbfb
-    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}]'
+    alb.ingress.kubernetes.io/listen-ports: '[ {"HTTPS": 443}]'
     alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
     alb.ingress.kubernetes.io/group.name: expense
 spec:
   rules:
-  - host: "app1.mahdo.site"
+  - host: "app1.daws81s.online"
     http:
       paths:
       - pathType: prefix
