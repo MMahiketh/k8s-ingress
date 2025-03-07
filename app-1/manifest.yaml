@@ -22,7 +22,7 @@ metadata:
   name: app1
 spec:
   selector:
-    name: app1
+    app: app1
   ports:
   - name: app1-port
     protocol: TCP
