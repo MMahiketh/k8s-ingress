@@ -15,3 +15,16 @@ spec:
       containers:
       - name: app-1
         image: mahiketh/app-1:v1
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: app-1
+spec:
+  selector:
+    name: app-1
+  ports:
+  - name: app-1-port
+    protocol: TCP
+    port: 80
+    targetPort: 80
